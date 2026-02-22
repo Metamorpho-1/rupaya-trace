@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Space+Grotesk:wght@400;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-space: "Space Grotesk", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  /* THE NEW SEXY ACCENTS */
+  --color-accent-lime: #a3e635; /* Lime-400 */
+  --color-accent-amber: #fbbf24; /* Amber-400 */
+}
+
+:root {
+  background-color: #050505;
+  color: #ffffff;
+}
+
+body {
+  @apply bg-[#050505] text-white antialiased m-0 p-0 overflow-x-hidden;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar { display: none; }
+
+/* Premium Accents */
+.text-accent-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-white via-accent-lime to-accent-amber;
+}
+
+.border-accent-glow {
+  transition: all 0.5s ease;
+}
+.group:hover .border-accent-glow {
+  border-color: var(--color-accent-lime);
+  box-shadow: 0 0 20px -5px var(--color-accent-lime);
+}

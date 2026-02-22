@@ -1,0 +1,28 @@
+
+    =========================================
+      RUPAYATRACE : VERIFIED IMPACT RECEIPT  
+    =========================================
+    DATE GENERATED: 21/02/2026, 06:37:46
+    
+    [ GUARDIAN DETAILS ]
+    Donor Name : Lakshya Gupta
+    Trace ID   : RT-D-6794
+    
+    [ ALLOCATION DETAILS ]
+    Amount     : ₹67
+    Mission    : Odisha Flood Relief
+    Partner    : Goonj
+    Node       : Target Node
+    
+    [ FUND UTILIZATION BREAKDOWN ]
+    78% Direct Field Relief
+    15% Logistics & Supply Chain
+    07% Ground Verification Protocol
+    
+    [ CRYPTOGRAPHIC AUDIT ]
+    Grid Hash  : 0xdd67c602b4336
+    Status     : Secured & Deployed
+    
+    =========================================
+    Thank you for your commitment to truth.
+    
