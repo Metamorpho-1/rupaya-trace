@@ -87,7 +87,7 @@ To fix the "Invalid Google Token" error, navigate to Google Cloud Console:
 ## 🤝 Meet the Contributors
 RupayaTrace is built by a team of dreamers dedicated to radical transparency.
 
-- **Lakshya Gupta** - Lead Architect & Design
-- **[Teammate 1]** - Smart Contract Wizard
-- **[Teammate 2]** - UI/UX Soul
-- **[Teammate 3]** - Systems Integration
+- **Lakshya Gupta** - Systems Integration
+- **Manan Verma** - Smart Contract Wizard
+- **Arihant Jain** - Backend Manager
+- **Shivang Singhal** - UI/UX builder
