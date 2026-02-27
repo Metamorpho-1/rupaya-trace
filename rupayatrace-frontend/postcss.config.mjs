@@ -1,12 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  // 🟢 REMOVED: Unsupported eslint and typescript keys to prevent warnings
-  
-  // Keep empty webpack config to satisfy dependencies if needed, 
-  // but the --webpack flag in Step 1 does the heavy lifting.
-  webpack: (config) => {
-    return config;
+// This file properly configures Tailwind CSS v4 and Autoprefixer
+export default {
+  plugins: {
+    '@tailwindcss/postcss': {},
+    'autoprefixer': {},
   },
 };
-
-export default nextConfig;

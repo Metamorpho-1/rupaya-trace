@@ -1,12 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // This forces Next.js to use the stable Webpack engine
+  // Forces Next.js to use the stable Webpack engine instead of the buggy Turbopack
   webpack: (config) => {
     return config;
   },
-  // Suppress specific build-time errors that might stop the build
-  typescript: { ignoreBuildErrors: true },
-  eslint: { ignoreDuringBuilds: true },
+  // Prevents the build from failing due to minor linting or type warnings
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
